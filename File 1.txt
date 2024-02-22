@@ -1,3 +1,5 @@
 Isi dari file 1
 
+code dari file 1 git
+
 code di file 1
