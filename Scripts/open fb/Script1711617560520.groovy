@@ -21,12 +21,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F')
 
-WebUI.setText(findTestObject('Object Repository/login fb/Page_Log in to Facebook/input_You must log in to continue_email'), 
-    'kiki.tanjung1999@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Page_Log in to Facebook/input_You must log in to continue_pass'), 'CBg7Uv88h2yK3yLsfBuW1A==')
-
-WebUI.click(findTestObject('Object Repository/login fb/Page_Log in to Facebook/button_Log in'))
-
 WebUI.closeBrowser()
 
