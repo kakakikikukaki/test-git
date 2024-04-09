@@ -21,20 +21,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://selectorshub.com/xpath-practice-page/')
 
-WebUI.setText(findTestObject('Object Repository/selector hub/Page_Xpath Practice Page  Shadow dom, neste_c4f084/input_User Email_email'), 
-    'asd')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/selector hub/Page_Xpath Practice Page  Shadow dom, neste_c4f084/input_Password_Password'), 
-    'tzH6RvlfSTg=')
-
-WebUI.setText(findTestObject('Object Repository/selector hub/Page_Xpath Practice Page  Shadow dom, neste_c4f084/input_Company_company'), 
-    'aaa')
-
-WebUI.setText(findTestObject('Object Repository/selector hub/Page_Xpath Practice Page  Shadow dom, neste_c4f084/input_Mobile Number_mobile number'), 
-    '123')
-
-WebUI.click(findTestObject('Object Repository/selector hub/Page_Xpath Practice Page  Shadow dom, neste_c4f084/button_Submit'))
-
 WebUI.takeScreenshotAsCheckpoint('insert data')
 
 WebUI.closeBrowser()
