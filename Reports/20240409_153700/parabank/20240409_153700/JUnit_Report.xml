@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="parabank" time="11.817" tests="1" failures="0" errors="0">
+   <testsuite name="parabank" tests="1" failures="0" errors="0" time="11.817" skipped="0" timestamp="09-04-2024T15:37:05" hostname="1728 - LAPTOP-NG7JKII8" id="Test Suites/parabank">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1728\\git\\test-git\\Reports\\20240409_153700\\parabank\\20240409_153700"/>
+         <property name="logFiles" value="C:\\Users\\1728\\git\\test-git\\Reports\\20240409_153700\\parabank\\20240409_153700\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1728 - LAPTOP-NG7JKII8"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="2a32bd31d99aae5998ea5df9ffb6bc76"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/open parabank" time="11.612" classname="Test Cases/open parabank" status="PASSED">
+         <system-out><![CDATA[09-04-2024T15:37:05 - [TEST_CASE][PASSED] - Test Cases/open parabank: Test Cases/open parabank
+
+09-04-2024T15:37:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-04-2024T15:37:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-04-2024T15:37:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-04-2024T15:37:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-04-2024T15:37:07 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm;jsessionid=0600CC55F6C7284132BDDF73C603E9B8"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm;jsessionid=0600CC55F6C7284132BDDF73C603E9B8' successfully
+
+09-04-2024T15:37:11 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm;jsessionid=0600CC55F6C7284132BDDF73C603E9B8' successfully
+
+09-04-2024T15:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/parabank/Page_ParaBank  Welcome  Online Banking/input_Username_username"), "aaaa"): Text 'aaaa' is set on object 'Object Repository/parabank/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+09-04-2024T15:37:15 - [MESSAGE][PASSED] - Text 'aaaa' is set on object 'Object Repository/parabank/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+09-04-2024T15:37:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/parabank/Page_ParaBank  Welcome  Online Banking/input_Password_password"), "ZaEZ19zTXk4="): Text ****** has been set on object 'Object Repository/parabank/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+09-04-2024T15:37:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/parabank/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+09-04-2024T15:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/parabank/Page_ParaBank  Welcome  Online Banking/input_Password_button")): Object: 'Object Repository/parabank/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on
+
+09-04-2024T15:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/parabank/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on
+
+09-04-2024T15:37:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-04-2024T15:37:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-04-2024T15:37:05 - [TEST_SUITE][PASSED] - parabank: Test Cases/open parabank]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
