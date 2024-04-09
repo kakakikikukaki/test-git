@@ -21,3 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.indocyber.co.id/')
 
+WebUI.delay(5)
+
+WebUI.takeScreenshotAsCheckpoint('homepage indocyber')
+
+WebUI.closeBrowser()
+
