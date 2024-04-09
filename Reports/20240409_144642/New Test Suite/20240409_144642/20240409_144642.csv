@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 123.0.0.0,,,09-04-2024 14:46:49,09-04-2024 14:46:54,4.472s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 123.0.0.0,,,09-04-2024 14:46:50,09-04-2024 14:46:54,4.112s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,09-04-2024 14:46:50,09-04-2024 14:46:53,3.334s,PASSED
+"navigateToUrl(""https://www.indocyber.co.id/"")",Chrome 123.0.0.0,,,09-04-2024 14:46:53,09-04-2024 14:46:54,0.404s,PASSED
